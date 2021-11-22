@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ADRIANA PUCCI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-11-11 03:32:22 "/>
+        <attribute name="created" value="QURSSUFOQSBQVUNDSTtERVNLVE9QLThQOE9FVjM7MjAyMS0xMS0xMTsiMDI6NTI6NTUgIjszMTQz"/>
+        <attribute name="edited" value="QURSSUFOQSBQVUNDSTtERVNLVE9QLThQOE9FVjM7MjAyMS0xMS0xMTsiMDM6MzI6MjIgIjsxOzMyNDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome, sobrenome, idade" type="String" array="False" size=""/>
+            <output expression="&quot;Digite seu nome&quot;" newline="True"/>
+            <input variable="Nome"/>
+            <output expression="&quot;Digite seu sobrenome&quot;" newline="True"/>
+            <input variable="Sobrenome"/>
+            <output expression="&quot;Digite sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot; O seu nome &#233;: &quot;&amp;nome&amp; &quot; Seu sobrenome &#233;: &quot;&amp;sobrenome&amp; &quot; Sua idade &#233;: &quot;&amp;idade" newline="True"/>
+            <declare name="Total" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite suas Notas&quot;" newline="True"/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <assign variable="Total" expression="(nota1+nota2+nota3+nota4)"/>
+            <output expression="Total" newline="True"/>
+            <assign variable="Media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="Media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
